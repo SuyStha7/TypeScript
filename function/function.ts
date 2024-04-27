@@ -37,7 +37,7 @@ const isPalindrome = (str: string): boolean => {
 
 console.log(isPalindrome("racecar"));
 
-// ? Create a function called calculateAverage that takes an argument and numbers as a parameter and returns the average of the numbers.
+// ? Create a function called calculateAverage that takes an array of numbers as a parameter and returns the average of the numbers.
 const calculateAverage = (numbers: number[]): number => {
   const sum = numbers.reduce((acc, curr) => acc + curr, 0);
   return sum / numbers.length;

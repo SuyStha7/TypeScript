@@ -12,8 +12,8 @@
 // };
 // function call
 // greet("Suyog", 22);
-// ! Function return : How do you specify the return type of  function in TS?
-// * to specify the return type of function, you can use the colon (:) followed by the
+// ! Function return : How do you specify the return type of a function in TS?
+// * to specify the return type of a function, you can use the colon (:) followed by the
 // * desired type after the function's parameter list
 // greeting function
 const greet = (name, id) => {
@@ -28,7 +28,7 @@ const isPalindrome = (str) => {
     return palin === str;
 };
 console.log(isPalindrome("racecar"));
-// ? Create a function called calculateAverage that takes an argument and numbers as a parameter and returns the average of the numbers.
+// ? Create a function called calculateAverage that takes an array of numbers as a parameter and returns the average of the numbers.
 const calculateAverage = (numbers) => {
     const sum = numbers.reduce((acc, curr) => acc + curr, 0);
     return sum / numbers.length;
